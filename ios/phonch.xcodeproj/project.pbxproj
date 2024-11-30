@@ -12,8 +12,19 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2849DED677D0F71140268987 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		30A0B6B1ECC846D4AC2215B9 /* SUIT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834F7D77FD934F938E51137D /* SUIT-Heavy.ttf */; };
+		36B56FDDB1704167A6093A1A /* SUIT-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */; };
+		514DCE802F194C0384EA6332 /* SUIT-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4C30EEAE9DE45028675D94A /* SUIT-ExtraBold.ttf */; };
+		5479EFBCD3344D81B3F1A75E /* SUIT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB0B2D39C3FC4465ADFBCF0B /* SUIT-Regular.ttf */; };
+		642FE9E166244646B4CFC4DA /* SUIT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E453B06DB4047F3BD8E7972 /* SUIT-Medium.ttf */; };
+		730820494232401FBA0F53D1 /* SUIT-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30E024C1DCE8494C9CD85710 /* SUIT-Thin.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-phonch-phonchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-phonch-phonchTests.a */; };
+		7B675D7D47214B828A56A0B6 /* SUIT-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48DCCBDFE607417AA3A7674C /* SUIT-ExtraLight.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		92B6F7B2E6B54D4AB80A14FF /* SUIT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFA8042A334B6BBACEE9C6 /* SUIT-Bold.ttf */; };
+		C6029FFF7C614D8DBDA41A50 /* SUIT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D04FB12D83054B9FADC4B10F /* SUIT-Light.ttf */; };
+		EF7C6BDB5B1A4DA5A7B36F15 /* icon_to_be_tinted.svg in Resources */ = {isa = PBXBuildFile; fileRef = C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +49,22 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = phonch/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = phonch/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-phonch-phonchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phonch-phonchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E453B06DB4047F3BD8E7972 /* SUIT-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Medium.ttf"; path = "../src/assets/fonts/SUIT-Medium.ttf"; sourceTree = "<group>"; };
+		30E024C1DCE8494C9CD85710 /* SUIT-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Thin.ttf"; path = "../src/assets/fonts/SUIT-Thin.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-phonch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phonch.debug.xcconfig"; path = "Target Support Files/Pods-phonch/Pods-phonch.debug.xcconfig"; sourceTree = "<group>"; };
+		48DCCBDFE607417AA3A7674C /* SUIT-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-ExtraLight.ttf"; path = "../src/assets/fonts/SUIT-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4DCFA8042A334B6BBACEE9C6 /* SUIT-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Bold.ttf"; path = "../src/assets/fonts/SUIT-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-phonch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phonch.release.xcconfig"; path = "Target Support Files/Pods-phonch/Pods-phonch.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-phonch-phonchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phonch-phonchTests.debug.xcconfig"; path = "Target Support Files/Pods-phonch-phonchTests/Pods-phonch-phonchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-phonch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phonch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = phonch/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		834F7D77FD934F938E51137D /* SUIT-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Heavy.ttf"; path = "../src/assets/fonts/SUIT-Heavy.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-phonch-phonchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phonch-phonchTests.release.xcconfig"; path = "Target Support Files/Pods-phonch-phonchTests/Pods-phonch-phonchTests.release.xcconfig"; sourceTree = "<group>"; };
+		998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-SemiBold.ttf"; path = "../src/assets/fonts/SUIT-SemiBold.ttf"; sourceTree = "<group>"; };
+		C4C30EEAE9DE45028675D94A /* SUIT-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-ExtraBold.ttf"; path = "../src/assets/fonts/SUIT-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = icon_to_be_tinted.svg; path = ../src/assets/images/icon_to_be_tinted.svg; sourceTree = "<group>"; };
+		D04FB12D83054B9FADC4B10F /* SUIT-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Light.ttf"; path = "../src/assets/fonts/SUIT-Light.ttf"; sourceTree = "<group>"; };
+		DB0B2D39C3FC4465ADFBCF0B /* SUIT-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Regular.ttf"; path = "../src/assets/fonts/SUIT-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -124,6 +145,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				EAEF18D0445F457CB8E2506E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +170,24 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-phonch-phonchTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAEF18D0445F457CB8E2506E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DCFA8042A334B6BBACEE9C6 /* SUIT-Bold.ttf */,
+				C4C30EEAE9DE45028675D94A /* SUIT-ExtraBold.ttf */,
+				48DCCBDFE607417AA3A7674C /* SUIT-ExtraLight.ttf */,
+				834F7D77FD934F938E51137D /* SUIT-Heavy.ttf */,
+				D04FB12D83054B9FADC4B10F /* SUIT-Light.ttf */,
+				2E453B06DB4047F3BD8E7972 /* SUIT-Medium.ttf */,
+				DB0B2D39C3FC4465ADFBCF0B /* SUIT-Regular.ttf */,
+				998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */,
+				30E024C1DCE8494C9CD85710 /* SUIT-Thin.ttf */,
+				C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +285,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2849DED677D0F71140268987 /* PrivacyInfo.xcprivacy in Resources */,
+				92B6F7B2E6B54D4AB80A14FF /* SUIT-Bold.ttf in Resources */,
+				514DCE802F194C0384EA6332 /* SUIT-ExtraBold.ttf in Resources */,
+				7B675D7D47214B828A56A0B6 /* SUIT-ExtraLight.ttf in Resources */,
+				30A0B6B1ECC846D4AC2215B9 /* SUIT-Heavy.ttf in Resources */,
+				C6029FFF7C614D8DBDA41A50 /* SUIT-Light.ttf in Resources */,
+				642FE9E166244646B4CFC4DA /* SUIT-Medium.ttf in Resources */,
+				5479EFBCD3344D81B3F1A75E /* SUIT-Regular.ttf in Resources */,
+				36B56FDDB1704167A6093A1A /* SUIT-SemiBold.ttf in Resources */,
+				730820494232401FBA0F53D1 /* SUIT-Thin.ttf in Resources */,
+				EF7C6BDB5B1A4DA5A7B36F15 /* icon_to_be_tinted.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYNKL4T4V4;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = phonch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -481,7 +533,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayward.kim.phonch;
 				PRODUCT_NAME = phonch;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -496,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JYNKL4T4V4;
 				INFOPLIST_FILE = phonch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,7 +561,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayward.kim.phonch;
 				PRODUCT_NAME = phonch;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -584,7 +637,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -649,7 +709,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
