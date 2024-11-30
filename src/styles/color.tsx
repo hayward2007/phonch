@@ -1,4 +1,4 @@
-class Color {
+export default class Color {
     static brand = "#FF4040";
     static white = "#FFFFFF";
     static black = "#1F1F1F";
@@ -8,5 +8,3 @@ class Color {
     static silver = "#C0C0C0";
     static bronze = "#CD7F32";
 }
-
-export default Color;
