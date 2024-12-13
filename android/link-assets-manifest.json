@@ -38,8 +38,12 @@
       "sha1": "3cb0fc31ddbd4664eacce7fedf2f26df6b58f587"
     },
     {
-      "path": "src/assets/images/icon_to_be_tinted.svg",
-      "sha1": "e6e13c4bc25501a7e0ace8a6045168de8373209a"
+      "path": "src/assets/images/challenge.svg",
+      "sha1": "c1f3a3db64fe4a61bb99be9f53b33cfc9733ae65"
+    },
+    {
+      "path": "src/assets/images/practice.svg",
+      "sha1": "8c8146e44767abbad28093cb4ac37477a0a7b6c1"
     }
   ]
 }

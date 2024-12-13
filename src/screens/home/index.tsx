@@ -4,16 +4,16 @@ import { SafeAreaView, ScrollView, Text, TouchableOpacity, View } from 'react-na
 import { style } from './style';
 import IconPractice from '@assets/images/practice.svg';
 import IconChallenge from '@assets/images/challenge.svg';
+import { Color, Style, TypoGraphy } from '@styles/global';
 import { ScoreBox } from '@components/scoreBox';
 import { UserList } from '@components/userList';
 
 const HomeScreen = () => {
     return (
-        <SafeAreaView style={style.background}>
-            <View style={style.content}>
-                <Text style={style.title}>Ranking Board</Text>
-
-                <View style={style.list}>
+        <SafeAreaView style={Style.background}>
+            <View style={[Style.flex, Style.gap(24), Style.padding([24, 24, 0, 24])]}>
+                <Text style={[TypoGraphy.title({color: Color.white})]}>Ranking Board</Text>
+                <View style={[Style.flex, Style.gap(12)]}>
                     <View style={style.profile}>
                         <Text style={style.user}>  1.  hayward_kim (KR)</Text>
                         <ScoreBox score={100}/>

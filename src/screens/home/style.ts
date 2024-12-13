@@ -1,19 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-
-import { Color, TypoGraphy } from '@styles/global';
+import { Color, Font } from '@styles/global';
 
 export const style = StyleSheet.create({
-    background: {
-        flex: 1,
-        backgroundColor: Color.black,
-    },
-    content: {
-        gap: 24,
-        flex: 1,
-        paddingTop: 24,
-        paddingHorizontal: 24,
-    },
     bottomRow: {
         gap: 24,
         flexDirection: 'row',
@@ -32,12 +21,12 @@ export const style = StyleSheet.create({
     boxButtonText: {
         color: Color.white,
         fontSize: 24,
-        fontFamily: TypoGraphy.semiBold,
+        fontFamily: Font.semiBold,
     },
     title: {
         color: Color.white,
         fontSize: 24,
-        fontFamily: TypoGraphy.extraBold,
+        fontFamily: Font.extraBold,
         textAlign: 'center',
     },
     minibox: {
@@ -53,7 +42,7 @@ export const style = StyleSheet.create({
     miniBoxText: {
         color: Color.black,
         fontSize: 16,
-        fontFamily: TypoGraphy.semiBold,
+        fontFamily: Font.semiBold,
     },
     records: {
         gap: 12,
@@ -80,6 +69,6 @@ export const style = StyleSheet.create({
     user: {
         color: Color.white,
         fontSize: 16,
-        fontFamily: TypoGraphy.semiBold,
+        fontFamily: Font.semiBold,
     },
 });

@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		28119A88172E4CDAB0D265F8 /* practice.svg in Resources */ = {isa = PBXBuildFile; fileRef = 101B2692184F43EE9101EC27 /* practice.svg */; };
 		2849DED677D0F71140268987 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		30A0B6B1ECC846D4AC2215B9 /* SUIT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834F7D77FD934F938E51137D /* SUIT-Heavy.ttf */; };
 		36B56FDDB1704167A6093A1A /* SUIT-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */; };
@@ -22,9 +23,9 @@
 		7699B88040F8A987B510C191 /* libPods-phonch-phonchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-phonch-phonchTests.a */; };
 		7B675D7D47214B828A56A0B6 /* SUIT-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48DCCBDFE607417AA3A7674C /* SUIT-ExtraLight.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		912086028C3A45CCAB3BED57 /* challenge.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8453A871C1904BCF8D14945D /* challenge.svg */; };
 		92B6F7B2E6B54D4AB80A14FF /* SUIT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFA8042A334B6BBACEE9C6 /* SUIT-Bold.ttf */; };
 		C6029FFF7C614D8DBDA41A50 /* SUIT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D04FB12D83054B9FADC4B10F /* SUIT-Light.ttf */; };
-		EF7C6BDB5B1A4DA5A7B36F15 /* icon_to_be_tinted.svg in Resources */ = {isa = PBXBuildFile; fileRef = C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		00E356EE1AD99517003FC87E /* phonchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* phonchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phonchTests.m; sourceTree = "<group>"; };
+		101B2692184F43EE9101EC27 /* practice.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = practice.svg; path = ../src/assets/images/practice.svg; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* phonch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = phonch/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = phonch/AppDelegate.mm; sourceTree = "<group>"; };
@@ -59,10 +61,10 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-phonch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-phonch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = phonch/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834F7D77FD934F938E51137D /* SUIT-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Heavy.ttf"; path = "../src/assets/fonts/SUIT-Heavy.ttf"; sourceTree = "<group>"; };
+		8453A871C1904BCF8D14945D /* challenge.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = challenge.svg; path = ../src/assets/images/challenge.svg; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-phonch-phonchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-phonch-phonchTests.release.xcconfig"; path = "Target Support Files/Pods-phonch-phonchTests/Pods-phonch-phonchTests.release.xcconfig"; sourceTree = "<group>"; };
 		998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-SemiBold.ttf"; path = "../src/assets/fonts/SUIT-SemiBold.ttf"; sourceTree = "<group>"; };
 		C4C30EEAE9DE45028675D94A /* SUIT-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-ExtraBold.ttf"; path = "../src/assets/fonts/SUIT-ExtraBold.ttf"; sourceTree = "<group>"; };
-		C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = icon_to_be_tinted.svg; path = ../src/assets/images/icon_to_be_tinted.svg; sourceTree = "<group>"; };
 		D04FB12D83054B9FADC4B10F /* SUIT-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Light.ttf"; path = "../src/assets/fonts/SUIT-Light.ttf"; sourceTree = "<group>"; };
 		DB0B2D39C3FC4465ADFBCF0B /* SUIT-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SUIT-Regular.ttf"; path = "../src/assets/fonts/SUIT-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -184,7 +186,8 @@
 				DB0B2D39C3FC4465ADFBCF0B /* SUIT-Regular.ttf */,
 				998BE7CB388A40AF9E5A71ED /* SUIT-SemiBold.ttf */,
 				30E024C1DCE8494C9CD85710 /* SUIT-Thin.ttf */,
-				C7E62A44EA6F43729547995E /* icon_to_be_tinted.svg */,
+				8453A871C1904BCF8D14945D /* challenge.svg */,
+				101B2692184F43EE9101EC27 /* practice.svg */,
 			);
 			name = Resources;
 			path = "";
@@ -295,7 +298,8 @@
 				5479EFBCD3344D81B3F1A75E /* SUIT-Regular.ttf in Resources */,
 				36B56FDDB1704167A6093A1A /* SUIT-SemiBold.ttf in Resources */,
 				730820494232401FBA0F53D1 /* SUIT-Thin.ttf in Resources */,
-				EF7C6BDB5B1A4DA5A7B36F15 /* icon_to_be_tinted.svg in Resources */,
+				912086028C3A45CCAB3BED57 /* challenge.svg in Resources */,
+				28119A88172E4CDAB0D265F8 /* practice.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
