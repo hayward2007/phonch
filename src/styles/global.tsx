@@ -1,3 +1,5 @@
+import { FlexAlignType } from "react-native";
+
 export class Color {
     static brand = "#FF4040";
     static white = "#FFFFFF";
@@ -25,12 +27,11 @@ export class Font {
 }
 
 export class TypoGraphy {
-    static title = ({color = Color.black}) => {
+    static title = ({color = Color.black}): Style => {
         return {
             color: color,
             fontSize: 24,
             fontFamily: Font.extraBold,
-            // textAlign: 'center',
         }
     }
 
@@ -56,27 +57,29 @@ export class Style {
         flex: 1,
     }
 
-    static row = (align: 'center' | 'space-between' | 'space-around') => {
+    static row = ({alignItems = 'center', justifyContent = 'center'}: {alignItems?: FlexAlignType, justifyContent?: FlexAlignType}) => {
         return {
             flexDirection: 'row',
-            justifyContent: align,
-        }
+            alignItems: alignItems,
+            justifyContent: justifyContent,
+        };
     }
 
-    static column = (align: 'center' | 'space-between' | 'space-around') => {
+    static column = ({alignItems = 'center', justifyContent = 'center'}: {alignItems?: FlexAlignType, justifyContent?: FlexAlignType}) => {
         return {
             flexDirection: 'column',
-            justifyContent: align,
+            alignItems: alignItems,
+            justifyContent: justifyContent,
         }
     }
 
-    static gap = (gap: number) => {
+    static gap = (gap: number): Style => {
         return {
             gap: gap,
         }
     }
 
-    static padding = (padding: number | [number, number] | [number, number, number, number]) => {
+    static padding = (padding: number | [number, number] | [number, number, number, number]): Style => {
         if (typeof(padding) === 'number') {
             return {
                 padding: padding,

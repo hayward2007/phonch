@@ -12,7 +12,7 @@ const HomeScreen = () => {
     return (
         <SafeAreaView style={Style.background}>
             <View style={[Style.flex, Style.gap(24), Style.padding([24, 24, 0, 24])]}>
-                <Text style={[TypoGraphy.title({color: Color.white})]}>Ranking Board</Text>
+                <Text style={[TypoGraphy.title({color: Color.white}), {textAlign: 'center'}]}>Ranking Board</Text>
                 <View style={[Style.flex, Style.gap(12)]}>
                     <View style={style.profile}>
                         <Text style={style.user}>  1.  hayward_kim (KR)</Text>
@@ -39,12 +39,11 @@ const HomeScreen = () => {
                         <UserList name={"hayward_kim"} score={30} rank={8} />
                         <UserList name={"hayward_kim"} score={20} rank={9} />
                         <UserList name={"hayward_kim"} score={10} rank={10} />
-                        
                     </ScrollView>
                 </View>
             </View>
 
-            <View style={style.bottomRow}>
+            <View style={[Style.row({}), Style.padding(24), Style.gap(24)]}>
                 <TouchableOpacity style={style.boxButton}>
                     <IconChallenge height={128} width={128} />
                     <Text style={style.boxButtonText}>Challenge</Text>
